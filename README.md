@@ -5,7 +5,22 @@ Software Used: Visual Studio Code.
 
 Theory: A 2D array in C++ is an array of arrays, meaning it's a collection of elements arranged in a grid or table with rows and columns. This type of array is commonly referred to as a matrix.
 
-Syntax: data_type array_name[rows][columns];
+Syntax: data_type array_name[rows][columns];cout<<"Enter 6 numbers: ";
+for(i=0;i<2;i++)
+{
+    for(j=0;j<3;j++)
+    {
+        cin>>arr[i][j];
+    }
+}
+for(i=0;i<2;i++)
+{
+    for(j=0;j<3;j++)
+    {
+        cout<<arr[i][j]<<" ";
+    }
+    cout<<endl;
+}
 
 #include using namespace std; int main() { int i,j; int arr[2][3];
 
